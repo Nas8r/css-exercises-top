@@ -24,10 +24,10 @@ body {
 }
 
 .button-container {
+  display: block;
   background: #e3f4ff;
   text-align: center;
   margin: 8px auto;  
-  display: block;
 }
 
 button {
