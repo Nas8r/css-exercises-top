@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* Newly added */
+  padding: 15px;
 }
 
 .icon {
@@ -67,3 +69,60 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Newly added */
+
+/* .Icons {
+  display: flex;
+  justify-content: flex-start;
+} */
+
+/* .left-side {
+  display: flex;
+  align-items: flex-start;
+}
+*/
+
+.on-top {
+  display: flex;
+  justify-content: baseline;
+  margin-top: 0;
+}
+
+div.right-side {
+  display: flex;
+  justify-content: flex-end;
+} 
+
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  font-size: large;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+.all-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 15px;
+  padding-left: 50px;
+}
+
+.mid-side {
+  display: flex;
+  justify-content: center;
+
+} 
+
+.con {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 50px;
+  gap: 4px;
+ }
