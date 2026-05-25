@@ -72,36 +72,23 @@ button.cancel {
 
 /* Newly added */
 
-/* .Icons {
-  display: flex;
-  justify-content: flex-start;
-} */
-
-/* .left-side {
-  display: flex;
-  align-items: flex-start;
-}
-*/
-
 .on-top {
   display: flex;
-  justify-content: baseline;
-  margin-top: 0;
 }
 
-div.right-side {
+.right-side {
   display: flex;
   justify-content: flex-end;
-} 
-
+}  
 
 .header {
   display: flex;
   align-items: flex-start;
   font-size: large;
   font-weight: bolder;
-  padding-bottom: 20px;
-  padding-left: 50px;
+  padding-left: 9px;
+  padding-right: 135px;
+  padding-top: 10px;
 }
 
 .all-mid {
