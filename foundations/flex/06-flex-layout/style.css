@@ -16,6 +16,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* Newly added */
+  padding: 8px;
 }
 
 input {
@@ -23,4 +25,61 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* Newly added */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(64, 50, 50);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: #eeeeeea2;
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-left: 8px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 8px;
+}
+
+.content {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.buttons {
+  padding: 15px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: flex-end;
 }
